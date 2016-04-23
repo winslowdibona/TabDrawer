@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EasyPeasy
+//import EasyPeasy
 
 protocol TabBarDelegate {
     func selectedItem(item : TabBarItem)

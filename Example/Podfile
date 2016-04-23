@@ -6,5 +6,4 @@ end
 
 target 'TabDrawer_Tests', :exclusive => true do
   pod 'TabDrawer', :path => '../'
-  
 end

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F3AFCD1F255F737E87E90A76'
+               BlueprintIdentifier = 'E44FBFDEBD38D1E4B7EBFF86'
                BlueprintName = 'TabDrawer'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'TabDrawer.framework'>

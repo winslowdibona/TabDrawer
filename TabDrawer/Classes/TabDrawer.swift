@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import EasyPeasy
+//import EasyPeasy
 
 class TabDrawer : UIView {
     
