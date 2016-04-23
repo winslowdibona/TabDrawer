@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'TabDrawer/Classes/**/*'
+  s.source_files = 'TabDrawer/Classes/*'
   s.resource_bundles = {
     'TabDrawer' => ['TabDrawer/Assets/*.png']
   }
