@@ -5,12 +5,15 @@
 [![License](https://img.shields.io/cocoapods/l/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 [![Platform](https://img.shields.io/cocoapods/p/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 
+[Options Example](https://github.com/winslowdibona/TabDrawer/blob/master/options_example.gif)
+
+
 TabDrawer is a customizable TabBar UI element that allows you to run a block of code upon TabBarItem selection, or display a customizable drawer. TabBar uses [EasyPeasy](https://github.com/nakiostudio/EasyPeasy) for managing auto-layout constraints. 
 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-More usage details and examples coming soon. For now checkout the OptionsExampleViewController class for an example inspired by [this blog post](http://scottjensen.design/2016/04/designing-an-alternative-to-the-hamburger-menu/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_247)
+More usage details and examples coming soon. For now checkout the OptionsExampleViewController class for an example inspired by [this blog post](http://scottjensen.design/2016/04/designing-an-alternative-to-the-hamburger-menu/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_247) shown in the gif above.
 
 ## Requirements
 
