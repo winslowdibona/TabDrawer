@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 [![Platform](https://img.shields.io/cocoapods/p/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 
-![Options Example](https://github.com/winslowdibona/TabDrawer/blob/master/options_example.gif)
+![Options Example](https://github.com/winslowdibona/TabDrawer/blob/master/OptionsExample.gif)
 
 
 TabDrawer is a customizable TabBar UI element that allows you to run a block of code upon TabBarItem selection, or display a customizable drawer. TabBar uses [EasyPeasy](https://github.com/nakiostudio/EasyPeasy) for managing auto-layout constraints. Icons used for the examples are from [icons8](https://icons8.com/)
