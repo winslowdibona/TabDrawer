@@ -10,7 +10,7 @@ TabDrawer is a customizable TabBar UI element that allows you to run a block of 
 ## Usage
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
-More usage details and examples coming soon. 
+More usage details and examples coming soon. For now checkout the OptionsExampleViewController class for an example inspired by [this blog post](http://scottjensen.design/2016/04/designing-an-alternative-to-the-hamburger-menu/?utm_campaign=iOS%2BDev%2BWeekly&utm_medium=email&utm_source=iOS_Dev_Weekly_Issue_247)
 
 ## Requirements
 
