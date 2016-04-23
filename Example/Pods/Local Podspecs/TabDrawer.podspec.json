@@ -1,0 +1,24 @@
+{
+  "name": "TabDrawer",
+  "version": "0.1.0",
+  "summary": "A short description of TabDrawer.",
+  "description": "",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/TabDrawer",
+  "license": "MIT",
+  "authors": {
+    "winslowdibona": "dibona.winslow@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/TabDrawer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TabDrawer/Classes/**/*",
+  "resource_bundles": {
+    "TabDrawer": [
+      "TabDrawer/Assets/*.png"
+    ]
+  }
+}

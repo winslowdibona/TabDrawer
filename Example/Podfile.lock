@@ -1,0 +1,14 @@
+PODS:
+  - TabDrawer (0.1.0)
+
+DEPENDENCIES:
+  - TabDrawer (from `../`)
+
+EXTERNAL SOURCES:
+  TabDrawer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  TabDrawer: 517e80c33b326ee3dbb96fb88d839580ccc7b3ed
+
+COCOAPODS: 0.39.0
