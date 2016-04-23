@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'TabDrawer' => ['TabDrawer/Assets/*.png']
   }
+
 end

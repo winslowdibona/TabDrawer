@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  TabDrawer: 9a8b6dd3d17b2654fb5e7e7b29c0248af432f5d8
+  TabDrawer: ed0524d53a643b92430688c2daca0d238e1af8ad
 
 COCOAPODS: 0.39.0

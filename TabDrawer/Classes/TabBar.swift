@@ -7,20 +7,19 @@
 //
 
 import UIKit
-//import EasyPeasy
 
-protocol TabBarDelegate {
+public protocol TabBarDelegate {
     func selectedItem(item : TabBarItem)
 }
 
-class TabBar: UIView {
+public class TabBar: UIView {
     
-    var tabDrawerItems : [TabDrawerItem]!
-    var items : [TabBarItem] = []
-    var delegate : TabBarDelegate!
-    var configuration : TabDrawerConfiguration!
+    public var tabDrawerItems : [TabDrawerItem]!
+    public var items : [TabBarItem] = []
+    public var delegate : TabBarDelegate!
+    public var configuration : TabDrawerConfiguration!
     
-    convenience init(tabDrawerItems : [TabDrawerItem], delegate : TabBarDelegate, config : TabDrawerConfiguration?) {
+    convenience public init(tabDrawerItems : [TabDrawerItem], delegate : TabBarDelegate, config : TabDrawerConfiguration?) {
         self.init(frame : CGRectZero)
         self.tabDrawerItems = tabDrawerItems
         self.delegate = delegate
@@ -31,7 +30,7 @@ class TabBar: UIView {
         }
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -39,7 +38,7 @@ class TabBar: UIView {
         super.init(frame: frame)
     }
     
-    func setup() {
+    public func setup() {
         for item in items {
             addSubview(item)
         }
@@ -61,7 +60,7 @@ class TabBar: UIView {
         }
     }
     
-    func tappedItem(sender : UITapGestureRecognizer) {
+    public func tappedItem(sender : UITapGestureRecognizer) {
         var count : Int = 0
         if let item = sender.view as? TabBarItem {
             for i in items {
@@ -78,7 +77,7 @@ class TabBar: UIView {
         }
     }
     
-    func setSelectedItem(index : Int) {
+    public func setSelectedItem(index : Int) {
         for i in 0..<items.count {
             let item = items[i]
             if index == i {

@@ -7,20 +7,19 @@
 //
 
 import UIKit
-//import EasyPeasy
 
-class TabBarItem: UIView {
+public class TabBarItem: UIView {
     
-    var tabDrawerItem : TabDrawerItem!
-    var imageView : UIImageView!
-    var titleLabel : UILabel!
+    public var tabDrawerItem : TabDrawerItem!
+    public var imageView : UIImageView!
+    public var titleLabel : UILabel!
     
-    convenience init(tabDrawerItem : TabDrawerItem) {
+    convenience public init(tabDrawerItem : TabDrawerItem) {
         self.init(frame : CGRectZero)
         self.tabDrawerItem = tabDrawerItem
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
     
@@ -29,7 +28,7 @@ class TabBarItem: UIView {
         backgroundColor = UIColor.whiteColor()
     }
     
-    func setup() {
+    public func setup() {
         makeLabel()
         makeImageView()
     }

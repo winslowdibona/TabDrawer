@@ -15,8 +15,7 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "EasyPeasy/**/*.h",
-  "source_files": "TabDrawer/Classes/**/*",
+  "source_files": "TabDrawer/Classes/*",
   "resource_bundles": {
     "TabDrawer": [
       "TabDrawer/Assets/*.png"

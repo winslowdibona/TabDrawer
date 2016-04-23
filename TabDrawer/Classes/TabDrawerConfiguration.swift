@@ -9,20 +9,20 @@
 import Foundation
 import UIKit
 
-struct TabDrawerConfiguration {
-    var drawerBackgroundColor : UIColor?
-    var drawerTextFont : UIFont?
-    var drawerTextColor : UIColor?
-    var tabBarItemBackgroundColor : UIColor?
-    var tabBarItemSelectedBackgroundColor : UIColor?
-    var tabBarItemTextColor : UIColor?
-    var tabBarItemSelectedTextColor : UIColor?
-    var tabBarItemTextFont : UIFont?
-    var tabBarItemIconColor : UIColor?
-    var tabBarItemIconSelectedColor : UIColor?
-    init(){}
+public struct TabDrawerConfiguration {
+    public var drawerBackgroundColor : UIColor?
+    public var drawerTextFont : UIFont?
+    public var drawerTextColor : UIColor?
+    public var tabBarItemBackgroundColor : UIColor?
+    public var tabBarItemSelectedBackgroundColor : UIColor?
+    public var tabBarItemTextColor : UIColor?
+    public var tabBarItemSelectedTextColor : UIColor?
+    public var tabBarItemTextFont : UIFont?
+    public var tabBarItemIconColor : UIColor?
+    public var tabBarItemIconSelectedColor : UIColor?
+    public init(){}
     
-    static func testConfiguration() -> TabDrawerConfiguration {
+    public static func testConfiguration() -> TabDrawerConfiguration {
         var config = TabDrawerConfiguration()
         config.drawerBackgroundColor = UIColor(red: 90/255, green: 125/255, blue: 124/255, alpha: 1.0)
         config.drawerTextColor = .whiteColor()
@@ -37,7 +37,7 @@ struct TabDrawerConfiguration {
         return config
     }
     
-    static func defaultConfiguration() -> TabDrawerConfiguration {
+    public static func defaultConfiguration() -> TabDrawerConfiguration {
         let blueColor = UIColor(red: 49/255, green: 153/255, blue: 255/255, alpha: 1.0)
         var config = TabDrawerConfiguration()
         config.drawerBackgroundColor = blueColor

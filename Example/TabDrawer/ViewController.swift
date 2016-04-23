@@ -10,7 +10,7 @@ import UIKit
 import TabDrawer
 
 class ViewController: UIViewController {
-
+    
     var tabDrawer : TabDrawer!
     
     override func viewDidLoad() {
@@ -26,10 +26,23 @@ class ViewController: UIViewController {
         redView.backgroundColor = config.drawerBackgroundColor
         blueView.backgroundColor = config.drawerBackgroundColor
         greenView.backgroundColor = config.drawerBackgroundColor
+        let o = TabDrawerItemOption(title: "option") {
+            print("option tapped")
+            self.tabDrawer.lower({
+                
+            })
+        }
+        let o2 = TabDrawerItemOption(title: "option 2") {
+            print("option 2 tapped")
+            self.tabDrawer.lower({
+                
+            })
+        }
         let item = TabDrawerItem(icon: UIImage(named: "home")!, title: "Red View", view: redView, viewHeight: 100)
         let item2 = TabDrawerItem(icon: UIImage(named: "home")!, title: "Blue View", view: blueView, viewHeight: 200)
         let item3 = TabDrawerItem(icon: UIImage(named: "home")!, title: "Green View", view: greenView, viewHeight: 150)
-        tabDrawer = TabDrawer(items: [item, item2, item3], config: config)
+        let item4 = TabDrawerItem(icon: UIImage(named: "home")!, title: "Options", options: [o, o2])
+        tabDrawer = TabDrawer(items: [item, item2, item3, item4], config: config)
         tabDrawer.placeOn(view)
     }
     
@@ -38,6 +51,4 @@ class ViewController: UIViewController {
             
         }
     }
-
 }
-

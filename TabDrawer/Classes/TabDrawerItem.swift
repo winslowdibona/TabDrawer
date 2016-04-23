@@ -9,32 +9,37 @@
 import Foundation
 import UIKit
 
-struct TabDrawerItemOption {
-    var title : String?
-    var selectionBlock : (() -> Void)?
+public struct TabDrawerItemOption {
+    public var title : String?
+    public var selectionBlock : (() -> Void)?
+    
+    public init(title : String, selectionBlock : (() -> Void)) {
+        self.title = title
+        self.selectionBlock = selectionBlock
+    }
 }
 
-class TabDrawerItem {
-    var icon : UIImage?
-    var title : String?
-    var selectionBlock : (() -> Void)?
-    var view : UIView?
-    var options : [TabDrawerItemOption] = []
-    var viewHeight : CGFloat?
+public class TabDrawerItem {
+    public var icon : UIImage?
+    public var title : String?
+    public var selectionBlock : (() -> Void)?
+    public var view : UIView?
+    public var options : [TabDrawerItemOption] = []
+    public var viewHeight : CGFloat? = 100
     
-    init(icon : UIImage, title : String, selectionBlock : (() -> Void)) {
+    public init(icon : UIImage, title : String, selectionBlock : (() -> Void)) {
         self.icon = icon
         self.title = title
         self.selectionBlock = selectionBlock
     }
     
-    init(icon : UIImage, title : String, options : [TabDrawerItemOption]) {
+    public init(icon : UIImage, title : String, options : [TabDrawerItemOption]) {
         self.icon = icon
         self.title = title
         self.options = options
     }
     
-    init(icon : UIImage, title : String, view : UIView, viewHeight : CGFloat) {
+    public init(icon : UIImage, title : String, view : UIView, viewHeight : CGFloat) {
         self.icon = icon
         self.title = title
         self.view = view
