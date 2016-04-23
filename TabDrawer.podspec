@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-                    A TabBar UI element that can display a customizable drawer
+                    TabDrawer is a UIView subclass that can be used to show a tab bar which can either fire off actions when selected, or display a customizable drawer. 
                        DESC
 
   s.homepage         = "https://github.com/winslowdibona/TabDrawer"
