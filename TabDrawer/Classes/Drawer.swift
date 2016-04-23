@@ -168,8 +168,10 @@ extension Drawer : UITableViewDelegate, UITableViewDataSource {
     public func indexForTableView(tableView : UITableView) -> Int {
         var i = 0
         for item in tabDrawerItems {
-            if let _ = item.view as? UITableView {
-                return i
+            if let tv = item.view as? UITableView {
+                if tv == tableView {
+                    return i
+                }
             }
             i += 1
         }

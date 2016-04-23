@@ -25,7 +25,7 @@ public class TabDrawerItem {
     public var selectionBlock : (() -> Void)?
     public var view : UIView?
     public var options : [TabDrawerItemOption] = []
-    public var viewHeight : CGFloat? = 100
+    public var viewHeight : CGFloat? = 125
     
     public init(icon : UIImage, title : String, selectionBlock : (() -> Void)) {
         self.icon = icon
