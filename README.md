@@ -25,12 +25,14 @@ TabDrawer is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
+use_frameworks!
+
 pod 'TabDrawer', :git => 'https://github.com/winslowdibona/TabDrawer.git' 
 ```
 
 ## Author
 
-winslowdibona, dibona.winslow@gmail.com
+Winslow DiBona, dibona.winslow@gmail.com
 
 ## License
 
