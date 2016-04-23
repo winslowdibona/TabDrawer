@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TabDrawer_Example', :exclusive => true do
+  pod 'TabDrawer', :path => '../'
+end
+
+target 'TabDrawer_Tests', :exclusive => true do
+  pod 'TabDrawer', :path => '../'
+
+  
+end
