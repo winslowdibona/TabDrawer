@@ -79,6 +79,7 @@ public class Drawer: UIView {
         tv.separatorStyle = .None
         tv.delegate = self
         tv.dataSource = self
+        tv.scrollEnabled = false
         return tv
     }
 }
