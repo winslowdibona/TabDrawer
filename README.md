@@ -14,6 +14,8 @@ More usage details and examples coming soon.
 
 ## Requirements
 
+iOS 8+
+
 ## Installation
 
 TabDrawer is available through [CocoaPods](http://cocoapods.org). To install
