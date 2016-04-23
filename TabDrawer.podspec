@@ -13,7 +13,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => "https://github.com/winslowdibona/TabDrawer.git", :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
-  s.public_header_files = 'EasyPeasy/**/*.h'
 
   s.source_files = 'TabDrawer/Classes/**/*'
   s.resource_bundles = {
