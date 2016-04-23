@@ -222,6 +222,20 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>140C49AD10E82BF54F177C3B7F182984</key>
+		<dict>
+			<key>fileRef</key>
+			<string>757AE095FEB67B5AFFEDE64371162183</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>153ABA72DF2F7D43A2BBDC7F4BB58E4C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B23D593E06E31DFB26AF88A3A6C250EB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>16C15F92078D006EB1CB7DC09DA152E7</key>
 		<dict>
 			<key>children</key>
@@ -429,7 +443,7 @@
 			<key>children</key>
 			<array>
 				<string>16C15F92078D006EB1CB7DC09DA152E7</string>
-				<string>641607EAEE9E21A3E25CA1374ADF085A</string>
+				<string>4A30E9D65F9D51BBB271A0EC8D12A67F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -502,6 +516,19 @@
 			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>352EF8160C3A79A8B6CF1472FB7682C5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TabBar.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>38A005CA424105995A8100B98E5B28BE</key>
 		<dict>
@@ -592,6 +619,19 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>497DDF52EB5DC83FE386579314A6A358</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>Drawer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>49DABE146837D2B2BA3907D2BDD0ADE7</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -613,6 +653,21 @@
 			<string>DB997A87BEB27973DE2FF85503651B29</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>4A30E9D65F9D51BBB271A0EC8D12A67F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>7285D74407EAFF07E37A1F9AD52E21BB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TabDrawer</string>
+			<key>path</key>
+			<string>TabDrawer</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>4CD4CB1DD111378FE46DD4CB1F8E8916</key>
 		<dict>
@@ -722,6 +777,13 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
+		<key>5709B8F85EC2BE3FA29624DBEC7784DC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7053EF0218EE8DBD1B38003045F2B2FC</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>57C53EB20DCA3917EFE2E95193192F0C</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -775,35 +837,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>641607EAEE9E21A3E25CA1374ADF085A</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>941F552CB9614326C636C2F1AD8BBB6E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>TabDrawer</string>
-			<key>path</key>
-			<string>TabDrawer</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A91CC8C0AAAE458868861B690D08B35</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A3A30734B32B08E08FD67F3D5EC4117C</string>
-				<string>762691217854A8CC35BFAC3BA39F2A15</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
 		<key>6C07F448E76AB9C6D7A67F4B60FE1A5C</key>
 		<dict>
 			<key>explicitFileType</key>
@@ -832,6 +865,26 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
+		<key>7285D74407EAFF07E37A1F9AD52E21BB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>497DDF52EB5DC83FE386579314A6A358</string>
+				<string>352EF8160C3A79A8B6CF1472FB7682C5</string>
+				<string>757AE095FEB67B5AFFEDE64371162183</string>
+				<string>B23D593E06E31DFB26AF88A3A6C250EB</string>
+				<string>9D23DBFD824F79942075A0A83CBD024A</string>
+				<string>F9217E188C117C89B4D3DB490ABE5930</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
 		<key>755A7E210F327125D72BC567719B8939</key>
 		<dict>
 			<key>containerPortal</key>
@@ -845,12 +898,18 @@
 			<key>remoteInfo</key>
 			<string>TabDrawer</string>
 		</dict>
-		<key>762691217854A8CC35BFAC3BA39F2A15</key>
+		<key>757AE095FEB67B5AFFEDE64371162183</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7053EF0218EE8DBD1B38003045F2B2FC</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TabBarItem.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>765975F364D328024214522A670CAEFE</key>
 		<dict>
@@ -946,19 +1005,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>8B31F7DFF8C2675F2D03538BE0BC41DD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
-			<key>path</key>
-			<string>ReplaceMe.swift</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>8ED54008524F6D25E9D4FAD5400828B3</key>
 		<dict>
 			<key>includeInIndex</key>
@@ -1001,21 +1047,6 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>941F552CB9614326C636C2F1AD8BBB6E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8B31F7DFF8C2675F2D03538BE0BC41DD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
 		<key>962FC277178B14D6099CA46AE5642A74</key>
 		<dict>
 			<key>baseConfigurationReference</key>
@@ -1037,6 +1068,45 @@
 			<string>XCBuildConfiguration</string>
 			<key>name</key>
 			<string>Release</string>
+		</dict>
+		<key>9792861D92025B45049A838957086F3A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>B1F97B6D61986EBFD4E33EC729DE0905</string>
+				<string>9890B58095EFAF8816747C75D42F4370</string>
+				<string>140C49AD10E82BF54F177C3B7F182984</string>
+				<string>5709B8F85EC2BE3FA29624DBEC7784DC</string>
+				<string>153ABA72DF2F7D43A2BBDC7F4BB58E4C</string>
+				<string>B03D8765D6F9089BABE7B9402395D9B8</string>
+				<string>D55737A92F791827A0F74AA9EFA2D4AA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>9890B58095EFAF8816747C75D42F4370</key>
+		<dict>
+			<key>fileRef</key>
+			<string>352EF8160C3A79A8B6CF1472FB7682C5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9D23DBFD824F79942075A0A83CBD024A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TabDrawerConfiguration.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9DCB47C108EF2509AFCD05A0ADA4D709</key>
 		<dict>
@@ -1115,13 +1185,6 @@
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>A3A30734B32B08E08FD67F3D5EC4117C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8B31F7DFF8C2675F2D03538BE0BC41DD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
 		<key>A6454BDCD1014DA0A215336BDE585FD0</key>
 		<dict>
 			<key>buildActionMask</key>
@@ -1141,7 +1204,7 @@
 			<string>F7CE1D18EDA54D56D3E2459B52BD4052</string>
 			<key>buildPhases</key>
 			<array>
-				<string>6A91CC8C0AAAE458868861B690D08B35</string>
+				<string>9792861D92025B45049A838957086F3A</string>
 				<string>A6454BDCD1014DA0A215336BDE585FD0</string>
 				<string>1D82120A10B45BC781FDAE66106D1E7D</string>
 				<string>CEDE6F0C034D2CFF7F373D5E76F3737E</string>
@@ -1176,6 +1239,33 @@
 					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>B03D8765D6F9089BABE7B9402395D9B8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>9D23DBFD824F79942075A0A83CBD024A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B1F97B6D61986EBFD4E33EC729DE0905</key>
+		<dict>
+			<key>fileRef</key>
+			<string>497DDF52EB5DC83FE386579314A6A358</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>B23D593E06E31DFB26AF88A3A6C250EB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TabDrawer.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1539,6 +1629,13 @@
 				<string>1CAAAB8268DAC333C02A03093DE616A2</string>
 			</array>
 		</dict>
+		<key>D55737A92F791827A0F74AA9EFA2D4AA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F9217E188C117C89B4D3DB490ABE5930</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
 		<key>D612D6DCC971EB2A1791E5F6D86869BC</key>
 		<dict>
 			<key>containerPortal</key>
@@ -1718,6 +1815,19 @@
 			<string>Release</string>
 			<key>isa</key>
 			<string>XCConfigurationList</string>
+		</dict>
+		<key>F9217E188C117C89B4D3DB490ABE5930</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>TabDrawerItem.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>FC6AA26E7A656D4E064AC4262F6082FF</key>
 		<dict>
