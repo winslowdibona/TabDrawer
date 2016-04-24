@@ -47,7 +47,7 @@ public struct TabDrawerConfiguration {
         config.tabBarItemIconColor = .lightGrayColor()
         config.tabBarItemIconSelectedColor = .whiteColor()
         config.tabBarItemSelectedBackgroundColor = blueColor
-        config.tabBarItemTextFont = UIFont(name: "Helvetica", size: 15)
+        config.tabBarItemTextFont = UIFont(name: "Helvetica", size: 12)
         config.tabBarItemTextColor = .lightGrayColor()
         config.tabBarItemSelectedTextColor = .whiteColor()
         return config

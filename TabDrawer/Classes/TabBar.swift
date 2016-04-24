@@ -56,6 +56,7 @@ public class TabBar: UIView {
             item.backgroundColor = configuration.tabBarItemBackgroundColor
             item.titleLabel.font = configuration.tabBarItemTextFont
             item.titleLabel.textColor = configuration.tabBarItemTextColor
+            item.imageView.colorImage(configuration.tabBarItemIconColor!)
             item.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tappedItem(_:))))
         }
     }
@@ -67,10 +68,12 @@ public class TabBar: UIView {
                 if i == item {
                     i.backgroundColor = configuration.tabBarItemSelectedBackgroundColor
                     i.titleLabel.textColor = configuration.tabBarItemSelectedTextColor
+                    i.imageView.colorImage(configuration.tabBarItemIconSelectedColor!)
                     delegate.selectedItem(item)
                 } else {
                     i.backgroundColor = configuration.tabBarItemBackgroundColor
                     i.titleLabel.textColor = configuration.tabBarItemTextColor
+                    i.imageView.colorImage(configuration.tabBarItemIconColor!)
                 }
                 count += 1
             }
