@@ -1,6 +1,5 @@
 # TabDrawer
 
-[![CI Status](http://img.shields.io/travis/winslowdibona/TabDrawer.svg?style=flat)](https://travis-ci.org/winslowdibona/TabDrawer)
 [![Version](https://img.shields.io/cocoapods/v/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 [![License](https://img.shields.io/cocoapods/l/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
 [![Platform](https://img.shields.io/cocoapods/p/TabDrawer.svg?style=flat)](http://cocoapods.org/pods/TabDrawer)
