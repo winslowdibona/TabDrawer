@@ -84,8 +84,10 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-TabDrawer_Tests/FontAwesome_swift.framework"
   install_framework "Pods-TabDrawer_Tests/TabDrawer.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-TabDrawer_Tests/FontAwesome_swift.framework"
   install_framework "Pods-TabDrawer_Tests/TabDrawer.framework"
 fi

@@ -1,0 +1,6 @@
+framework module FontAwesome_swift {
+  umbrella header "FontAwesome.swift-umbrella.h"
+
+  export *
+  module * { export * }
+}

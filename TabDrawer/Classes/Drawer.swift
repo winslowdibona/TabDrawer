@@ -36,7 +36,7 @@ public class Drawer: UIView {
         super.init(coder: aDecoder)
     }
     
-    override init(frame: CGRect) {
+    override private init(frame: CGRect) {
         super.init(frame: frame)
     }
     
@@ -45,12 +45,14 @@ public class Drawer: UIView {
         for item in tabDrawerItems {
             if item.view == nil && item.options.count > 0 {
                 item.view = makeTableView()
+            } else if item.view == nil {
+                item.view = UIView()
             }
         }
         collectionView.reloadData()
     }
     
-    func makeCollectionView() {
+    private func makeCollectionView() {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .Horizontal
         layout.minimumInteritemSpacing = 0
@@ -73,7 +75,7 @@ public class Drawer: UIView {
         collectionView <- [ Left(0), Right(0), Top(0), Bottom(0) ]
     }
     
-    func makeTableView() -> UITableView {
+    private func makeTableView() -> UITableView {
         let tv = UITableView(frame: CGRectZero)
         tv.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0)
         tv.separatorStyle = .None
@@ -166,7 +168,7 @@ extension Drawer : UITableViewDelegate, UITableViewDataSource {
         tabDrawerItems[indexForTableView(tableView)].options[indexPath.row].selectionBlock?()
     }
     
-    public func indexForTableView(tableView : UITableView) -> Int {
+    private func indexForTableView(tableView : UITableView) -> Int {
         var i = 0
         for item in tabDrawerItems {
             if let tv = item.view as? UITableView {

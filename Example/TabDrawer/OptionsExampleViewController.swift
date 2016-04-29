@@ -15,7 +15,7 @@ class OptionsExampleViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        view.backgroundColor = .whiteColor()
         let config = TabDrawerConfiguration.defaultConfiguration()
         let items = makeItems()
         tabDrawer = TabDrawer(items: items, config: config)

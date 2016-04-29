@@ -1,7 +1,9 @@
 PODS:
+  - FontAwesome.swift (0.7.1)
   - TabDrawer (0.1.0)
 
 DEPENDENCIES:
+  - FontAwesome.swift
   - TabDrawer (from `../`)
 
 EXTERNAL SOURCES:
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
+  FontAwesome.swift: 21ec9db57af8b92d4b4d6ca8208b9ae07031e828
   TabDrawer: ed0524d53a643b92430688c2daca0d238e1af8ad
 
 COCOAPODS: 0.39.0
