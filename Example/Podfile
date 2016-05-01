@@ -7,5 +7,5 @@ end
 
 target 'TabDrawer_Tests', :exclusive => true do
   pod 'TabDrawer', :path => '../'
-  pod 'FontAwesome.swift', 
+  pod 'FontAwesome.swift'
 end
